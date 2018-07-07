@@ -1,1 +1,0 @@
-$(':header').addClass('headline');$('li').hide().fadeIn(6000);$('li').on('click', function() {  $(this).remove();});

@@ -1,23 +1,28 @@
-body {
+/*-- Sets properties for index body --*/
+#index-body {
 	background: #3E4649;
 	color: #f7f7f7;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
+
+/*-- Properties for header --*/
 #info-header {
     text-align: center;
 }
 #info-header h1 {
+    font-size: 400%;
     text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
-    font-size:4vw;
 }
 #info-header p {
-    font-size:1.4vw;
+    font-size: 200%;
     margin-bottom: 3%;
 }
+
+/*-- Properties for circle-links --*/
 .list-unstyled a {
 	color: inherit;
 	font-family: inherit;
-	font-size: 1.2vw;
+	font-size: 200%;
 	text-decoration: none;
 }
 .list-unstyled img{
@@ -30,6 +35,13 @@ ul img:hover{
 	box-shadow: 0 0 20px #FFC12B;
 }
 
+@media only screen and (max-width: 400px) {
+    #info-header p{
+        font-size: 150%;
+    }
+}
+
+/*-- Properties for index/resume body --*/
 #resume {
     color: #686963; 
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
