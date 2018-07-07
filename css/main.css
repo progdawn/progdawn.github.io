@@ -15,7 +15,11 @@
 }
 #info-header p {
     font-size: 200%;
-    margin-bottom: 3%;
+/*    margin-bottom: 3%;*/
+}
+#skills-list li{
+    font-size: 150%;
+/*    margin-bottom: 3%;*/
 }
 
 /*-- Properties for circle-links --*/
@@ -38,6 +42,12 @@ ul img:hover{
 @media only screen and (max-width: 400px) {
     #info-header p{
         font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #skills-list li{
+        font-size: 125%;
     }
 }
 
