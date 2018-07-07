@@ -1,0 +1,59 @@
+<!-- Dawn Myers
+ITDEV 160 Mequon
+Week three, in class activity B -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Activity B</title>
+    </head>
+    
+    <body>
+        <form action=http://www.example.com/review.php" method="get">
+            <fieldset>
+				<legend>Tell us about you</legend>
+				<label for="name">Name <input type="text" name="name" required="required"></label><br />
+				<label for="color">Favorite color <input type="text" name="color" required="required"></label><br />
+				
+				<p>What device are you using?<br />
+				<input type="radio" name="device" value="desktop" checked="checked" />Desktop
+				<input type="radio" name="device" value="desktop" />Smartphone
+				<input type="radio" name="device" value="desktop" />Tablet
+				</p>
+				
+				<p>Select your favorite animal(s)<br />
+				<input id="dog" type="checkbox" name="animal" value="dog" checked="checked" /> Dog
+				<input id="cat" type="checkbox" name="animal" value="dog" /> Cat
+				<input id="turtle" type="checkbox" name="animal" value="dog" /> Turtle
+				<input id="iguana" type="checkbox" name="animal" value="dog" /> Iguana
+				</p>
+				
+				<p>
+					<label for="favoriteMeal">Which meal is your favorite?</label>
+					<select name="meal" id="favoriteMeal">
+						<option value="breakfast">Breakfast</option>
+						<option value="lunch">Lunch</option>
+						<option value="dinner">Dinner</option>
+						<option value="fourthmeal">Fourth Meal</option>
+					</select>
+				</p>
+            </fieldset>
+        </form>
+		
+		<form action=http://www.example.com/review.php" method="post">
+			<fieldset>
+				<legend>Send us some cool stuff</legend>
+				<p>Send us a random word!<p>
+				<input type="text" name="word" />
+				<input type="submit" name="submitWord" value="Submit Random Word" />
+				
+				<p>Send us your favorite picture!</p>
+				<input type="file" name="picture" /> <br />
+				<input type="submit" value="Upload" /> <br />
+			</fieldset>
+			
+			<input type="submit" value="Submit information" />
+							
+		</form>
+    </body>
+</html>

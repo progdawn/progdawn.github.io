@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Reborn Khaz Modan</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/custom.css" rel="stylesheet">
+	</head>
+	
+	<body>		
+		<div style="position: fixed; z-index: -99; height: 100%; width: 100%">
+			 <iframe class="youtube-player" id="player" frameborder="0" height="100%" width="100%" 
+    src="https://youtube.com/embed/5QWWm8Skjfo?autoplay=1&controls=0&showinfo=0&autohide=1&enablejsapi=1">
+			</iframe>
+		</div>
+		
+		
+		<nav class="navbar navbar-inverse navbar-static-top">
+			<div class="container">
+				<div class="navbar-header">	
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-links" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"><img src="images/alliance.png" aria-hidden="true" />Reborn - Khaz Modan</a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-collapse-links">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="news.html">News</a></li>
+						<li><a href="videos.html">Videos</a></li>
+						<li><a href="pics.html">Pics</a></li>
+						<li><a href="apply.html">Apply</a></li>
+						<li><a href="about.html">About</a></li>					
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<div class="container">
+			<form class="well form-horizontal" action="mailto:myersd2@gmatc.matc.edu" method="post" id="contact_form" name="contactform" enctype="text/plain">
+				<fieldset>
+					<legend style="color:#f7f7f7">Apply for Reborn</legend>
+					<div class="form-group">
+						<label class="col-md-4 control-label">Character Name</label>
+						<div class="col-md-4 inputGroupContainer">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+								<input name="charName" placeholder="Character Name" class="form-control" type="text">
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-md-4 control-label">E-Mail</label>
+						<div class="col-md-4 inputGroupContainer">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+								<input name="email" placeholder="E-Mail Address" class="form-control" type="email" required="required">
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-md-4 control-label">Class</label>
+						<div class="col-md-4 selectContainer">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-education"></i></span>
+								<select name="charClass" class="form-control selectpicker">
+									<option value=" ">Please select your class</option>
+									<option>Death Knight</option>
+									<option>Demon Hunter</option>
+									<option>Druid</option>
+									<option>Hunter</option>
+									<option>Mage</option>
+									<option>Monk</option>
+									<option>Paladin</option>
+									<option>Priest</option>
+									<option>Rogue</option>
+									<option>Shaman</option>
+									<option>Warlock</option>
+									<option>Warrior</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-md-4 control-label">Role</label>
+						<div class="col-md-4 selectContainer">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-cog"></i></span>
+								<select name="charRole" class="form-control selectpicker">
+									<option value=" ">Please select your role</option>
+									<option>Tank</option>
+									<option>Healer</option>
+									<option>DPS</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-md-4 control-label">Comments</label>
+						<div class="col-md-4 inputGroupContainer">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+								<textarea class="form-control" name="comment" placeholder="Why I want to join..."></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-md-4 control-label"></label>
+						<div class="col-md-4">
+							<input type="submit" id="submitApplication" class="btn btn-info" value="Send">
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</div>	
+			
+		
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
+</html>

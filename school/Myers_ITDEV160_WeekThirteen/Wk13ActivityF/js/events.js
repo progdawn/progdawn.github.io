@@ -1,0 +1,17 @@
+$(function() {
+  var ids = '';
+  var $listItems = $('li');
+
+  $listItems.on('mouseover click', function() {
+    ids = this.id;
+    $listItems.children('span').remove();
+    $(this).append(' <span class="priority">' + ids + '</span>');
+	$(this).addClass('cool');
+  });
+
+  $listItems.on('mouseout', function() {
+    $(this).children('span').remove();
+	$(this).removeClass('cool');
+  });
+
+});

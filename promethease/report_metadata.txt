@@ -1,0 +1,9 @@
+Promethease
+Version 0.1.166
+Analyzed dna-data-2018-03-12.zip <br>infiles /tmp/tmplwMxiN
+On 2018-03-12 21:03:32.614235 UTC
+Found 41310 SNPedia genos
+
+promethease.html is the report. We're starting hear reports that some (browsers? OSs?) no longer allow double clicking on promethease.html to open the report. That will open the browser, but shows a blank page. If that happens to you, use File->Open to navigate to, then open, promethease.html
+
+The files below 'ui2libs' are support files, that all it to work offline. They aren't needed, nor used, when you have a network connection.

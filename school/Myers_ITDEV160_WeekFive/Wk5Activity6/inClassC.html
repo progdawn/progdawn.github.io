@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- Dawn Myers
+ITDEV 160 Mequon
+Week five, in class activity C -->
+<html>
+	<head>
+		<title>Activity C</title>
+		<meta name="description" content="Font spacing, size, and style" />
+		<meta name="keywords" content="html, css, fonts" />
+		<meta http-equiv="author" content="Dawn Myers" />
+		<style>
+			body{
+				background-color: rgb(204, 255, 255);
+				color: rgb(0, 77, 77)
+			}
+			h1{
+				background-color: AliceBlue;
+				color: DarkSlateGrey;
+				letter-spacing: 0.4em
+			}
+			h2{
+				background-color: #ffffcc;
+				color: #4d4d00;
+				text-transform: uppercase
+			}
+			a:link{
+				background-color: rgb(255, 179, 179);
+				color: rgb(128, 0, 0);
+				text-decoration: none
+			}
+			p{
+				background-color: hsl(240, 100%, 90%);
+				color: hsl(240, 100%, 20%);
+				font-family: cursive
+			}			
+		</style>
+	</head>
+	
+	<body>
+		<h1>What I did at work today, part 1</h1>
+		<p>A story of how I really broke things</p>
+		
+		<h2>The problem, or just a symptom?</h2>
+		<p>Sometimes problems are actually just a symptom of a bigger problem. 
+		Today I continued reproducing a reported issue for our <a href="https://en.wikipedia.org/wiki/TI_MSP430">
+		MSP430</a> device. When someone from a another department asked me how to do something, 
+		I figured I would show them on my testing device. Little did I know it would cause me to
+		stumble a pretty nasty bug - which is my job!</p>
+		
+		<h2>Down the rabbit hole</h2>
+		<p>My device was locking up pretty bad. Unfortunately one of our developers couldn't usemap
+		the same tools I could to reproduce, so we tried a different way that called the same code - 
+		but it wouldn't reproduce! The only difference was my method used zigbee communication, and his
+		used serial. The code called was the same. Strange!</p>
+		
+		<h2>No explanation for this</h2>
+		<p>When I told my boss, we tried yet a third method for figuring out what device was at fault.
+		That's where things went insane. The device locked up, its sibling devices locked up, processes crashed,
+		displays flickered, temperatures reported impossible amounts! One little bug lead to us uncovering
+		what would have been a fatal flaw in the hands of customers. All in a days work for a thermostat
+		tester!</p>
+		
+	</body>
+</html>

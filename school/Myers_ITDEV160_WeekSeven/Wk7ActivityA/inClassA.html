@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Dawn Myers
+ITDEV 160 Mequon
+Week seven, in class activity A -->
+<html>
+	<head>
+		<title>Using a grid in CSS</title>
+		<link rel="stylesheet" type="text/css" href="css/960_12_col.css" />
+		<style>
+			* {
+				font-family: sans-serif;
+				text-align: center;}
+			#header, .article, #footer{
+				background-color: lightblue;
+				margin: 5px;
+				padding: 5px
+			}	
+			img{
+				width: 215px;
+				height: 215px
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="container_12 clearfix">
+			<div id="header" class="grid_12">
+				<h1>Highlights from my trip to Tennessee in March</h1>
+			</div>
+			<div class="article grid_6">
+				<p>Here's a donut burger and deep fried oreos</p>
+			</div>
+			<div class="article grid_6">
+				<p>Here's some pictures from a car museum we saw</p>
+			</div>
+			<div class="article grid_3">
+				<img src="images/donutburger.png" />
+			</div>
+			<div class="article grid_3">
+				<img src="images/friedoreos.png" />		
+			</div>
+			<div class="article grid_3">
+				<img src="images/carmuseum1.png" />		
+			</div>
+			<div class="article grid_3">
+				<img src="images/carmuseum2.png" />		
+			</div>
+			<div id="footer" class="grid_12">
+				<p>If I lived in Tennessee, I would probably put on 50 pounds, and drive a pick-up truck</p>
+			</div>
+		</div>	
+	</body>
+</html>
