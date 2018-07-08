@@ -1,7 +1,7 @@
 /*-- Sets properties for index body --*/
 #index-body {
-    background-color: #f9f8fd;
-	color: #3d3d3f;
+    background-color: #eaeaea;
+	color: #33363b;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
 }
 
@@ -14,16 +14,14 @@
 }
 #info-header p {
     font-size: 200%;
-/*    margin-bottom: 3%;*/
 }
 .skills-list-hr {
     height: 0.1em;
-    background-color: #3d3d3f !important;
-    color: #3d3d3f !important;
+    background-color: #368cbf !important;
+    color: #368cbf !important;
 }
 #skills-list li{
     font-size: 140%;
-/*    margin-bottom: 3%;*/
 }
 
 /*-- Properties for circle-links --*/
@@ -55,15 +53,82 @@ ul img:hover{
         font-size: 125%;
     }
 }
-/*@media only screen and (max-width: 1024px){
-    .secondary {
-        visibility: hidden;
-    }
-}*/
 
 /*-- Properties for index/resume body --*/
 #resume {
-    color: #3d3d3f; 
+    color: #33363b; 
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    background-color: #f9f8fd;
+    background-color: #eaeaea;
 }
+#contact-list {
+    vertical-align: bottom;
+}
+.resume-hr {
+    height: 0.05em;
+    background-color: #368cbf !important;
+    color: #368cbf !important;
+}
+#contact-list {
+    vertical-align: baseline;
+}
+.resume-link-list {
+}
+.resume-list-item {   
+    font-size: 125%;
+}
+resume-list-item {
+    text-decoration: none;
+}
+.resume-list-item a:hover {
+    text-decoration: none;
+    box-shadow: 0px 4px 0px #F7C331;
+}
+/*-- Media queries for resume --*/
+@media only screen and (max-width: 400px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
