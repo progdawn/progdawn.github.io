@@ -1,8 +1,8 @@
 /*-- Sets properties for index body --*/
 #index-body {
-	background: #3E4649;
-	color: #f7f7f7;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    background-color: #f9f8fd;
+	color: #3d3d3f;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
 }
 
 /*-- Properties for header --*/
@@ -11,14 +11,18 @@
 }
 #info-header h1 {
     font-size: 400%;
-    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
 }
 #info-header p {
     font-size: 200%;
 /*    margin-bottom: 3%;*/
 }
+.skills-list-hr {
+    height: 0.1em;
+    background-color: #3d3d3f !important;
+    color: #3d3d3f !important;
+}
 #skills-list li{
-    font-size: 150%;
+    font-size: 140%;
 /*    margin-bottom: 3%;*/
 }
 
@@ -39,21 +43,27 @@ ul img:hover{
 	box-shadow: 0 0 20px #FFC12B;
 }
 
+/*-- Media queries for index --*/
 @media only screen and (max-width: 400px) {
     #info-header p{
         font-size: 150%;
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1367px) {
     #skills-list li{
         font-size: 125%;
     }
 }
+/*@media only screen and (max-width: 1024px){
+    .secondary {
+        visibility: hidden;
+    }
+}*/
 
 /*-- Properties for index/resume body --*/
 #resume {
-    color: #686963; 
+    color: #3d3d3f; 
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    background-color: #fafafa;
+    background-color: #f9f8fd;
 }
