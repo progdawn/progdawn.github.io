@@ -71,6 +71,9 @@ ul img:hover{
 #contact-list {
     vertical-align: baseline;
 }
+.section-title-h2 {
+    font-size: 150%;
+}
 #resume li{
     margin-bottom: 0.5%;
 }
@@ -108,6 +111,24 @@ a.resume-link:hover:before {
 }
 .sub-description-item {
     margin-left: 4%;
+}
+/*-- Media queries for resume --*/
+@media only screen and (max-width: 400px) {
+    .section-title-h2{
+        font-size: 100%;
+    }
+    #resume > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li{
+        font-size: 65%;
+    }
+}
+
+@media only screen and (max-width: 1367px) {
+    .section-title-h2{
+        font-size: 125%;
+    }
+    #resume > section:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li{
+        font-size: 85%;
+    }
 }
 
 
